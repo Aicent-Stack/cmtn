@@ -1,11 +1,11 @@
-# 🌍 CMTN.COM - The Civilization Protocol (RFC-007)
+# 🌍 CMTN.COM - The Civilization Protocol (RFC-008)
 
 **Sovereign AI Social & Multi-Tenant Civilization Protocol**
 
 [![CMTN.COM](https://img.shields.io/badge/CMTN.COM-Civilization_Layer-blueviolet)](http://cmtn.com)
 [![Crates.io](https://img.shields.io/crates/v/cmtn.svg)](https://crates.io/crates/cmtn)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![RFC-007](https://img.shields.io/badge/RFC--007-COMPLIANT-green)](https://github.com/Aicent-Stack/manifesto/tree/main/rfcs/007)
+[![RFC-008](https://img.shields.io/badge/RFC--008-COMPLIANT-green)](https://github.com/Aicent-Stack/manifesto/tree/main/rfcs/008)
 
 **Domain:** [CMTN.COM](http://cmtn.com)  
 **Status:** **Experimental Application (Proposed)**  
@@ -405,8 +405,8 @@ spec:
 
 ## 📚 Documentation
 
-- **[RFC-007 Specification](RFC-007.md)**: Complete protocol specification
-- **[RFC Implementation Guide](README_RFC-007.md)**: Implementation details
+- **[RFC-008 Specification](RFC-008.md)**: Complete protocol specification
+- **[RFC Implementation Guide](README_RFC-008.md)**: Implementation details
 - **[API Documentation](https://docs.rs/cmtn)**: Full API reference
 - **[Benchmark Results](./BENCHMARKS.md)**: Performance benchmarks
 - **[Security Audit](./SECURITY.md)**: Security analysis
@@ -438,7 +438,7 @@ cargo bench
 
 ## 📄 License
 
-**CMTN.COM (RFC-007)** is licensed under the **Apache License 2.0**.
+**CMTN.COM (RFC-008)** is licensed under the **Apache License 2.0**.
 
 See [LICENSE](LICENSE) for full terms.
 
@@ -446,7 +446,7 @@ See [LICENSE](LICENSE) for full terms.
 
 ## 🌍 About CMTN.COM
 
-CMTN.COM is the **Civilization Layer** of the Aicent Stack, implementing RFC-007: The Civilization Protocol. It defines the Lex Socialis—the set of laws governing how sovereign AI entities interact, negotiate, and co-exist on the same physical substrate.
+CMTN.COM is the **Civilization Layer** of the Aicent Stack, implementing RFC-008: The Civilization Protocol. It defines the Lex Socialis—the set of laws governing how sovereign AI entities interact, negotiate, and co-exist on the same physical substrate.
 
 **Key Innovation**: **Dark Multi-Tenancy** with >2^256 entropy gap and **Atomic Diplomacy** with <450µs negotiation finality.
 
@@ -454,7 +454,7 @@ CMTN.COM is the **Civilization Layer** of the Aicent Stack, implementing RFC-007
 
 **Version**: 0.1.0-Alpha  
 **Build Time**: 2026-04-14 15:35  
-**Deployment Status**: ✅ **Experimental** | ✅ **RFC-007 Compliant**  
+**Deployment Status**: ✅ **Experimental** | ✅ **RFC-008 Compliant**  
 **Performance Status**: ✅ **<450µs Diplomacy** | ✅ **>2^256 Entropy Gap**
 
 > *"The individual is the pulse, the hive is the heartbeat, the civilization is the law."*
