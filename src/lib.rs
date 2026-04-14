@@ -290,7 +290,7 @@ pub enum DiplomaticError {
 
 #[tokio::main]
 async fn main() {
-    println!("RFC-007: CMTN Implementation Example");
+    println!("RFC-008: CMTN Implementation Example");
     println!("=====================================\n");
     
     // Initialize reputation engine
