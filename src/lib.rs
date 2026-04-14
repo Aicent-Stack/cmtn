@@ -372,13 +372,13 @@ async fn main() {
     
     // Check if civilization qualifies for high-value diplomatic mesh
     if metabolic_trust > 0.95 {
-        println!("✓ Qualifies for High-Value Diplomatic Mesh (RFC-007 2.3)");
+        println!("✓ Qualifies for High-Value Diplomatic Mesh (RFC-008 2.3)");
     } else {
         println!("✗ Does not qualify for High-Value Diplomatic Mesh");
     }
     
     println!("\n=====================================");
-    println!("RFC-007 Implementation Example Complete");
+    println!("RFC-008 Implementation Example Complete");
     println!("Civilization Protocol: ACTIVE");
     println!("Dark Multi-Tenancy: ENABLED");
     println!("Atomic Diplomacy: OPERATIONAL");
