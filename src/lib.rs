@@ -1,6 +1,6 @@
-//! RFC-007: CMTN Implementation Example
+//! RFC-008: CMTN Implementation Example
 //! http://cmtn.com/
-//! This example demonstrates the core concepts of RFC-007:
+//! This example demonstrates the core concepts of RFC-008:
 //! 1. Civilization Signature Management
 //! 2. Pulse-Integrated Diplomacy
 //! 3. Dark Multi-Tenancy
@@ -159,7 +159,7 @@ impl ReputationEngine {
     ) -> f64 {
         let base_score = self.get_score(signature).await;
         
-        // Metabolic Trust Score formula from RFC-007
+        // Metabolic Trust Score formula from RFC-008
         let trust_score = base_score 
             * (0.6 + 0.4 * resource_contribution).min(1.0)
             * (0.8 + 0.2 * homeostasis_score).min(1.0);
@@ -184,7 +184,7 @@ impl DiplomaticEngine {
         Self {
             reputation_engine,
             pending_negotiations: RwLock::new(HashMap::new()),
-            max_latency: 450_000, // 450µs as per RFC-007
+            max_latency: 450_000, // 450µs as per RFC-008
         }
     }
     
@@ -241,7 +241,7 @@ impl DiplomaticEngine {
         &self,
         request: &DiplomaticRequest,
     ) -> Result<DiplomaticResponse, DiplomaticError> {
-        // Simulate tensor alignment (RFC-007 2.1)
+        // Simulate tensor alignment (RFC-008 2.1)
         tokio::time::sleep(std::time::Duration::from_micros(100)).await;
         
         // Check if alignment reached
