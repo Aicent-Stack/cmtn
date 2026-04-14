@@ -480,7 +480,7 @@ mod tests {
 // Performance Metrics
 // ============================================================================
 
-/// Performance metrics collector for RFC-007 compliance
+/// Performance metrics collector for RFC-008 compliance
 pub struct CmtnMetrics {
     total_requests: std::sync::atomic::AtomicU64,
     successful_requests: std::sync::atomic::AtomicU64,
@@ -563,7 +563,7 @@ impl std::fmt::Display for CmtnMetricsSnapshot {
   Successful: {} ({:.1}%)
   Average Latency: {}µs
   Max Latency: {}µs
-  RFC-007 Compliance: {}",
+  RFC-008 Compliance: {}",
             self.total_requests,
             self.successful_requests,
             self.success_rate,
