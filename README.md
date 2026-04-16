@@ -1,4 +1,4 @@
-# cmtn: The Civilization Layer
+# 🌍 cmtn: The Civilization Layer
 ## Sovereign AI Social & Multi-Tenant Civilization Protocol [RFC-008]
 
 [![Organism Vitality & Protocol Audit](https://github.com/Aicent-Stack/aicent-stack/actions/workflows/rust-ci.yml/badge.svg)](https://github.com/Aicent-Stack/aicent-stack/actions/workflows/rust-ci.yml)
