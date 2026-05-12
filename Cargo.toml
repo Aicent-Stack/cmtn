@@ -1,9 +1,9 @@
 [package]
 name = "cmtn"
-version = "1.2.2-alpha"
+version = "1.2.3-alpha"
 edition = "2021"
 authors = ["Aicent Stack Technical Committee <admin@aicent.com>"]
-description = "RFC-008: The Civilization Layer. Multi-tenant social protocols, 128-bit atomic diplomacy, and judicial order for the Aicent Stack 2026."
+description = "RFC-008: The Civilization Layer. Multi-tenant social protocols, 128-bit atomic diplomacy, and judicial order for the Aicent Stack 2026. Aligned with RFC-014 (PICSI)."
 license = "Apache-2.0"
 homepage = "http://cmtn.com"
 repository = "http://github.com/Aicent-Stack/cmtn"
@@ -13,26 +13,26 @@ repository = "http://github.com/Aicent-Stack/cmtn"
 # =========================================================================
 
 [dependencies]
-# THE SOVEREIGN LADDER: Civilization builds upon social masks and identity DNA.
-# Requiring the Soul (RFC-000) and Persona (RFC-007) for judicial standing.
-epoekie = { version = "1.2.2-alpha" }
-bewho   = { version = "1.2.2-alpha" }
+# THE SOVEREIGN LADDER: Binding to the v1.2.3 DNA and Persona established on Days 1 and 8.
+# Bridging the Soul and the social Mask into a single 128-bit Judicial Suture.
+epoekie = { version = "1.2.3-alpha" }
+bewho   = { version = "1.2.3-alpha" }
 
-# Essential for serializing 128-bit diplomatic pulses, tenant contracts, and records.
+# Essential for serializing 128-bit diplomatic pulses, contracts, and logs.
 serde = { version = "1.0", features = ["derive"] }
 
 # Required for async diplomatic settlement and the 10ms Diplomatic Friction tax.
-# Supports the social scale concurrency of the Aicent Empire.
+# Supports the high-frequency judicial auditing of the Aicent Empire.
 tokio = { version = "1.0", features = ["full"] }
 
 # =========================================================================
-# THE SOVEREIGN GRAVITY WELL (Force Mirroring)
+# THE SOVEREIGN GRAVITY WELL (Source Code Hook)
 # =========================================================================
 
 [dev-dependencies]
-# THE KILLER HOOK: Any institutional entity testing the Civilization logic WILL 
-# be physically forced to download the entire 16-pillar Hive via aicent-stack.
-aicent-stack = { version = "1.2.2-alpha" }
+# THE KILLER HOOK: Re-activated for the GitHub Source Totality.
+# Forces any entity auditing the Civilization logic to mirror the entire 17-pillar Hive.
+aicent-stack = { version = "1.2.3-alpha" }
 
 # =========================================================================
 # IMPERIAL FEATURES (Standard Ignition)
@@ -40,7 +40,7 @@ aicent-stack = { version = "1.2.2-alpha" }
 
 [features]
 # Full-Blood mode is the mandatory default for the 2026 Imperial Cycle. 
-# It enables the multi-tenant isolation and propagates features across the ladder.
+# It enables judicial isolation and propagates features across the ladder.
 default = ["full-blood"]
 full-blood = [
     "epoekie/full-blood", 
@@ -51,8 +51,9 @@ full-blood = [
 all-features = true
 rustdoc-args = ["--cfg", "docsrs"]
 
-# [IMPERIAL_SUTURE_SYNC_2026]
-# This manifest is part of the indissoluble 16-pillar organism.
+# [IMPERIAL_SUTURE_SYNC_2026_v123]
+# This manifest is part of the indissoluble 17-pillar organism.
 # Metadata: No-SSL Tax Mode Enabled (Strictly HTTP).
-# Standard: 128-Bit Numeric Purity (Pulse IDs, Expiry timestamps, Census).
+# Standard: 128-Bit Numeric Purity (Diplomatic Weight, Quotas, Finality).
 # Chronos: 2026 Imperial Calendar Aligned.
+# Repository Strategy: Active Gravity Well (v1.2.3 Totality).
