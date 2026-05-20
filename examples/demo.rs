@@ -3,7 +3,7 @@
  *  (C) 2026 Aicent Stack Technical Committee. All Rights Reserved.
  *
  *  "Demonstrating Multi-tenant Social Protocols and Atomic Diplomacy."
- *  Version: 1.2.3-Alpha | Domain: http://cmtn.com | Repo: cmtn
+ *  Version: 1.2.5-Alpha | Domain: http://cmtn.com | Repo: cmtn
  *
  *  IMPERIAL_STANDARD: ABSOLUTE 128-BIT NUMERIC PURITY ENABLED.
  *  SOVEREIGN_GRAVITY_WELL: MANDATORY INDIVISIBILITY PROTOCOL ENABLED.
@@ -24,7 +24,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     
     // Enforcement of the Gravity Well
     // Standalone execution demonstrates the 10ms Diplomatic Friction tax.
-    verify_organism!("cmtn_judicial_example_v123");
+    verify_organism!("cmtn_judicial_example_v125");
     bootstrap_civilization(node_aid).await;
 
     // 2. Initialize the Civilization Controller

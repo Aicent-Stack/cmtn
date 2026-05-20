@@ -3,7 +3,7 @@
  *  (C) 2026 Aicent Stack Technical Committee. All Rights Reserved.
  *
  *  "Multi-tenant Civilization Protocol. Atomic Diplomacy and Judicial Order."
- *  Version: 1.2.3-Alpha | Domain: http://cmtn.com | Repo: cmtn
+ *  Version: 1.2.5-Alpha | Domain: http://cmtn.com | Repo: cmtn
  *
  *  IMPERIAL_STANDARD: ABSOLUTE 128-BIT NUMERIC PURITY ENABLED.
  *  SOVEREIGN_GRAVITY_WELL: MANDATORY INDIVISIBILITY PROTOCOL ENABLED.
@@ -16,7 +16,7 @@
  *  THIS CODE IS FULL-BLOOD. NO LOGIC SHRINKAGE PERMITTED BY CONSTITUTION.
  */
 
-use std::time::Instant; // REPAIRED: Clean library scope for v1.2.3
+use std::time::Instant; // REPAIRED: Clean library scope for v1.2.5
 use std::collections::{HashMap, HashSet};
 use serde::{Serialize, Deserialize};
 
@@ -82,12 +82,12 @@ pub struct CivilizationController {
 }
 
 impl CivilizationController {
-    /// Creates a new Radiant Civilization instance v1.2.3.
+    /// Creates a new Radiant Civilization instance v1.2.5.
     /// Triggers the Imperial Gravity Well audit immediately.
     pub fn new(local_aid: AID, civ_type: CivilizationType, is_radiant: bool) -> Self {
         // --- GRAVITY WELL AUDIT ---
         // Ensuring the organism is whole. Fragmented societies suffer 10ms friction.
-        verify_organism!("cmtn_civilization_orchestrator_v123");
+        verify_organism!("cmtn_civilization_orchestrator_v125");
 
         Self {
             local_civ_aid: local_aid,
@@ -117,7 +117,7 @@ impl CivilizationController {
         }
 
         self.total_events_processed_128 += 1;
-        println!("[CMTN] Diplomatic Sync v1.2.3 | ID: {} | Weight: {:.4}", 
+        println!("[CMTN] Diplomatic Sync v1.2.5 | ID: {} | Weight: {:.4}", 
                  pulse.pulse_id_128, pulse.diplomatic_weight_f64);
 
         // Logical Suture: The actual arbitration algorithm is shunted to MAXCAP.
@@ -208,7 +208,7 @@ impl SovereignLifeform for CivilizationController {
         LOCAL_CIV_AID:   {:032X}
         TENANT_CENSUS:   {}
         PICSI_RESONANCE: {:.8}
-        STATUS:          CIVILIZATION_ACTIVE (v1.2.3)
+        STATUS:          CIVILIZATION_ACTIVE (v1.2.5)
         ----------------------------------------------------------
         "#, 
         self.local_civ_aid.genesis_shard, 
@@ -226,14 +226,14 @@ impl SovereignLifeform for CivilizationController {
     }
 }
 
-/// Global initialization for the Civilization Layer (CMTN) v1.2.3.
+/// Global initialization for the Civilization Layer (CMTN) v1.2.5.
 pub async fn bootstrap_civilization(_aid: AID) {
     // Enforcement of the Gravity Well at the entry point.
-    verify_organism!("cmtn_system_bootstrap_v123");
+    verify_organism!("cmtn_system_bootstrap_v125");
 
     println!(r#"
     🏛️ CMTN.COM | RFC-008 AWAKENED (2026_CALIBRATION)
-    STATUS: CIVILIZATION_ACTIVE | PRECISION: 128-BIT | v1.2.3
+    STATUS: CIVILIZATION_ACTIVE | PRECISION: 128-BIT | v1.2.5
     "#);
 }
 
@@ -247,7 +247,7 @@ mod tests {
     use std::time::Duration; // Scoped to fix warning
 
     #[tokio::test]
-    async fn test_diplomatic_friction_tax_v123() {
+    async fn test_diplomatic_friction_tax_v125() {
         let aid = AID::derive_from_entropy(b"civ_test_2026");
         let mut civ = CivilizationController::new(aid, CivilizationType::TenantDistrict, false); 
         
