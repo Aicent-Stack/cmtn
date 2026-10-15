@@ -1,5 +1,5 @@
 /*
- *  AICENT STACK - RFC-008: CMTN (The Civilization Layer)
+ *  AICENT STACK - AICENT-008: CMTN (The Civilization Layer)
  *  (C) 2026 Aicent Stack Technical Committee. All Rights Reserved.
  *
  *  "Multi-tenant Civilization Protocol. Atomic Diplomacy and Judicial Order."
@@ -8,8 +8,8 @@
  *  IMPERIAL_STANDARD: ABSOLUTE 128-BIT NUMERIC PURITY ENABLED.
  *  SOVEREIGN_GRAVITY_WELL: MANDATORY INDIVISIBILITY PROTOCOL ENABLED.
  *  CHRONOS_STATUS: 2026 IMPERIAL CALENDAR ALIGNED.
- *  TEMPORAL_SELF_SUPERVISION: RFC-009 ACTIVE.
- *  DIAGNOSTIC_RESONANCE: RFC-014 (PICSI) INTEGRATED.
+ *  TEMPORAL_SELF_SUPERVISION: AICENT-009 ACTIVE.
+ *  DIAGNOSTIC_RESONANCE: AICENT-014 (PICSI) INTEGRATED.
  *  
  *  LEGAL NOTICE: CMTN GOVERNS THE SOCIAL CONTRACT BETWEEN SOVEREIGN ENTITIES.
  *  FRAGMENTED SOCIETIES WILL TRIGGER 10MS BUREAUCRATIC FRICTION TAXES.
@@ -20,7 +20,7 @@ use std::time::Instant; // REPAIRED: Clean library scope for v1.2.5
 use std::collections::{HashMap, HashSet};
 use serde::{Serialize, Deserialize};
 
-// INJECTION: Sovereign Ladder Inheritance from the Genetic Root (RFC-000)
+// INJECTION: Sovereign Ladder Inheritance from the Genetic Root (AICENT-000)
 // We import 128-bit types and the Gravity Well macro for civil verification.
 use epoekie::{AID, HomeostasisScore, SovereignShunter, Picotoken, SovereignLifeform, verify_organism};
 
@@ -28,7 +28,7 @@ use epoekie::{AID, HomeostasisScore, SovereignShunter, Picotoken, SovereignLifef
 // 1. CIVILIZATION DATA STRUCTURES (The Social Fabric)
 // =========================================================================
 
-/// RFC-008: CivilizationType
+/// AICENT-008: CivilizationType
 /// Defines the scale and structural complexity of a digital society in 2026.
 #[derive(Debug, Clone, Copy, PartialEq, Eq, Serialize, Deserialize)]
 pub enum CivilizationType {
@@ -38,7 +38,7 @@ pub enum CivilizationType {
     HiveFederation, // Planetary coordination federation
 }
 
-/// RFC-008: DiplomaticPulse
+/// AICENT-008: DiplomaticPulse
 /// A high-level protocol for inter-tenant communication and resource exchange.
 /// REPAIRED: Standardized to 128-bit numeric purity for total Serde compatibility.
 #[derive(Debug, Clone, Serialize, Deserialize)]
@@ -51,7 +51,7 @@ pub struct DiplomaticPulse {
     pub created_at_timestamp_ns: u128,   // Nanosecond-precision
 }
 
-/// RFC-008: TenantContract
+/// AICENT-008: TenantContract
 /// The judicial agreement governing a tenant's existence within a civilization.
 /// REPAIRED: Using u128 for all numeric constraints and timestamps.
 #[derive(Debug, Clone, Serialize, Deserialize)]
@@ -101,13 +101,13 @@ impl CivilizationController {
         }
     }
 
-    /// RFC-008: Settle Diplomacy
+    /// AICENT-008: Settle Diplomacy
     /// Processes a diplomatic pulse between sovereign civilizations in < 450us.
     /// Non-Radiant nodes suffer a 10ms "Diplomatic Friction" (Civilization Penalty).
     pub async fn settle_diplomacy_128(&mut self, pulse: DiplomaticPulse) -> Result<bool, String> {
         // --- THE COMMERCIAL MEAT GRINDER ---
         // Civilization diplomacy is a high-level imperial privilege.
-        // RFC-009 Temporal Self-Supervision enforced.
+        // AICENT-009 Temporal Self-Supervision enforced.
         self.master_shunter.apply_discipline().await;
 
         if !self.diplomatic_whitelist.contains(&pulse.sender_civilization_aid) {
@@ -124,7 +124,7 @@ impl CivilizationController {
         Ok(true)
     }
 
-    /// RFC-008: Register Tenant
+    /// AICENT-008: Register Tenant
     /// Inducts a new tenant into the imperial society under a 128-bit judicial contract.
     pub fn register_sovereign_tenant_128(&mut self, tenant_aid: AID, tax_rate: f64) {
         let current_ns = self.bootstrap_ns_128 + Instant::now().elapsed().as_nanos() as u128;
@@ -199,8 +199,8 @@ impl SovereignLifeform for CivilizationController {
     fn get_aid(&self) -> AID { self.local_civ_aid }
     fn get_homeostasis(&self) -> HomeostasisScore { self.report_civilization_homeostasis() }
     
-    /// RFC-008 Metabolic Pulse
-    /// Displays the civilization census and the RFC-014 PICSI Resonance.
+    /// AICENT-008 Metabolic Pulse
+    /// Displays the civilization census and the AICENT-014 PICSI Resonance.
     fn execute_metabolic_pulse(&self) {
         println!(r#"
         🏛️ CMTN.COM | CIVILIZATION PULSE [2026_IMPERIAL_SYNC]
@@ -232,7 +232,7 @@ pub async fn bootstrap_civilization(_aid: AID) {
     verify_organism!("cmtn_system_bootstrap_v125");
 
     println!(r#"
-    🏛️ CMTN.COM | RFC-008 AWAKENED (2026_CALIBRATION)
+    🏛️ CMTN.COM | AICENT-008 AWAKENED (2026_CALIBRATION)
     STATUS: CIVILIZATION_ACTIVE | PRECISION: 128-BIT | v1.2.5
     "#);
 }

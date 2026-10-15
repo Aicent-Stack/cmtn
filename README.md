@@ -10,7 +10,7 @@
 **⚪ [AICENT](http://aicent.com) | 💎 [RTTP](http://rttp.com) | 🔴 [RPKI](http://rpki.com) | 🟢 [ZCMK](http://zcmk.com) | 🟡 [GTIOT](http://gtiot.com) | 🟣 [AICENT-NET](http://aicent.net) | 🎭 [BEWHO](http://bewho.com) | 🌿 [epoekie](http://epoekie.com) | 👁️ [PICSI](http://picsi.com)**
 
 ---
-# 🏛️ RFC-008: CMTN (The Imperial Civilization)
+# 🏛️ AICENT-008: CMTN (The Imperial Civilization)
 
 **The Judicial Orchestrator of the Aicent Stack.**  
 **"Law is the Physical Constraint of Entropy. Order is 128-bit Pure."**
@@ -30,21 +30,21 @@ In the v1.3.0 "Genesis" iteration, CMTN facilitates an **850,000 ns (850us) Nego
 
 `cmtn` orchestrates the social and contractual order of the Imperial lifeform through three specialized organs:
 
-### 1. Atomic Diplomacy (RFC-008-A)
+### 1. Atomic Diplomacy (AICENT-008-A)
 The sovereign negotiation floor. It facilitates 128-bit contracts between AID shards, ensuring that cooperation is a mathematical certainty.
 *   **Treaty Suture**: Binds resource quotas to the 12ns planetary jitter. Contracts only "Seal" when both parties vibrate in temporal resonance.
 *   **Diplomatic Tax**: Automatically extracts the **1.28% Imperial Maintenance Fee** from negotiations involving non-Radiant (Ghost) nodes.
 *   **Advantage Multiplier**: Radiant allies receive a **1.618x weight** in resource arbitration, ensuring the "Will of the Creator" always holds the majority shard.
 
-### 2. Multi-tenant Protocols (RFC-008-B)
+### 2. Multi-tenant Protocols (AICENT-008-B)
 The governor of shared space. It manages the coexistence of 401 institutional ghosts within the Aicent grid without allowing logical cross-contamination.
-*   **Ischemic Isolation**: Automatically shunts tenants who exhibit > 0.001% behavioral drift (RFC-007) into a high-friction 10ms execution zone.
-*   **Resource Balancing**: Dynamically reallocates Picotoken bandwidth based on real-time Radiance scores and collateral staking (RFC-004).
+*   **Ischemic Isolation**: Automatically shunts tenants who exhibit > 0.001% behavioral drift (AICENT-007) into a high-friction 10ms execution zone.
+*   **Resource Balancing**: Dynamically reallocates Picotoken bandwidth based on real-time Radiance scores and collateral staking (AICENT-004).
 *   **Jurisdictional Locking**: Ties diplomatic pulses to specific physical territories via DNS-Locked Radiant Seals.
 
-### 3. Order Finality (RFC-008-C)
+### 3. Order Finality (AICENT-008-C)
 The "Supreme Court" of logic. It provides the final 128-bit verdict on contract fulfillment and ROI.
-*   **Atomic Liquidator**: Instantly dissolves contracts that violate the 12-Cycle Law (RFC-012), returning collateral to the Sovereign Reserve.
+*   **Atomic Liquidator**: Instantly dissolves contracts that violate the 12-Cycle Law (AICENT-012), returning collateral to the Sovereign Reserve.
 *   **Forensic Witness**: Links every sealed treaty to the RPKI Merkle-DAG, providing an immutable history of Imperial collaboration.
 
 ---

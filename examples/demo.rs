@@ -1,5 +1,5 @@
 /*
- *  AICENT STACK - RFC-008: CMTN (The Civilization Layer)
+ *  AICENT STACK - AICENT-008: CMTN (The Civilization Layer)
  *  (C) 2026 Aicent Stack Technical Committee. All Rights Reserved.
  *
  *  "Demonstrating Multi-tenant Social Protocols and Atomic Diplomacy."
@@ -80,8 +80,8 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     civ_hub.audit_judicial_record_128(tenant_aid, violation_severity);
 
     // 6. Sovereignty Awareness (PICSI Feedback)
-    // Synchronizing the social fabric with the Imperial Eye (RFC-014).
-    println!("\n[METABOLISM] Synchronizing with Imperial Eye (RFC-014)...");
+    // Synchronizing the social fabric with the Imperial Eye (AICENT-014).
+    println!("\n[METABOLISM] Synchronizing with Imperial Eye (AICENT-014)...");
     civ_hub.current_homeostasis.picsi_resonance_idx = 0.999924;
     civ_hub.current_homeostasis.metabolic_efficiency = 0.992;
     
@@ -99,6 +99,6 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     println!("PICSI Resonance:  {:.8}", hs.picsi_resonance_idx);
     println!("Bureaucracy Tax:  {:.2}%", hs.entropy_tax_rate * 100.0);
 
-    println!("\n[FINISH] RFC-008 Demonstration complete. The Empire is Orderly.");
+    println!("\n[FINISH] AICENT-008 Demonstration complete. The Empire is Orderly.");
     Ok(())
 }
